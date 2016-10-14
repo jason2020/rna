@@ -5,6 +5,7 @@ body, html {
 
 #submit {
 	margin-left: 1%;
+	cursor: pointer;
 }
 
 #results {
