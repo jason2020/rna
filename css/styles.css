@@ -1,0 +1,34 @@
+body, html {
+	padding: 0;
+	margin: 0;
+}
+
+#submit {
+	margin-left: 1%;
+}
+
+#results {
+	height: 30em;
+	background: #EEE;
+	overflow: auto;
+}
+
+.aminoAcid {
+	width: 100%;
+	height: 15%;
+	background-color: #33C3F0;
+	border-bottom: 1px solid white;
+}
+
+.picture {
+	width: 12%;
+	height: 100%;
+	float: right;
+}
+
+.aminoAcidName {
+	color: white;
+	height: 100%;
+	display: inline-block;
+	font-size: 150%;
+}

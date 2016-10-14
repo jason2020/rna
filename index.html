@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="twelve columns">
+				<form autocomplete="off" method="post">
+      				<label for="rnaStrand">RNA Chain</label>
+      				<input class="eight columns" type="text" id="rna" onkeypress="return event.keyCode != 13;">
+    				<button type='button' id="submit" class="button-primary"">Analyze</button>
+	    		</form>
+    		</div>
+    	</div>
+    	<div class="row">
+			<div class="twelve columns">
+				<div id="results" class="u-full-width">
+					<!-- <div class="aminoAcid">
+						<div class="aminoAcidName">Alanine</div>
+						<img class="picture" src="images/alanine.png">
+					</div>
+				</div> -->
+			</div>
+    	</div>
+    </div>
+	<script src="js/script.js"></script>
+	
+</body>
+</html>
