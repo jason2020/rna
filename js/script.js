@@ -10,16 +10,13 @@ function rnaChainBreaker(rnaChain) {
 	var array = [];
 	var rnaStrands = rnaChain.match(/.{1,3}/g);
 	var length = rnaStrands.length;
-	if ((length % 3 == 0) || (rnaChain.includes("") == true)) {
-		error();
-	} else {
+	
 		for (var i = 0; i < length; i++) {
 			var rnaChain = rnaStrands[i].split("");
 			var processedRna = processRnaStrand(rnaChain);
 			var aminoAcid = getAminoAcid(processedRna);
 			array.push(aminoAcid);
 		}
-	}
 	console.log(array);
 	return array;
 }
