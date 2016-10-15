@@ -68,7 +68,7 @@ function getAminoAcid(processRna) {
 								["Leucine"], ["Proline"], ["Histidine", "Glutamine"], ["Arginine"]
 							],
 							[
-								["Isoleucine", "Methionine"], ["Theronine"], ["Asparagine", "Lysine"], ["Serine", "Arginine"]
+								["Isoleucine", "Methionine"], ["Threonine"], ["Asparagine", "Lysine"], ["Serine", "Arginine"]
 							],
 							[
 								["Valine"], ["Alanine"], ["Aspartic Acid", "Glutamic Acid"], ["Glycine"]
